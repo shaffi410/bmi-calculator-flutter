@@ -14,3 +14,9 @@ const kNumberStyle = TextStyle(
   fontWeight: FontWeight.w900,
   fontSize: 50.0,
 );
+
+const kButtonBoxShadow = BoxShadow(
+  color: Color(0xFFEB1555),
+  blurRadius: 11.0,
+  spreadRadius: 1.0,
+);

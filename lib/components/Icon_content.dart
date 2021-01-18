@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
-import 'constants.dart';
+import 'package:bmi_calculator/constants.dart';
 
-class Icon_Content extends StatelessWidget {
+class IconContent extends StatelessWidget {
   final IconData icon;
   final String text;
 
-  Icon_Content({@required this.icon, @required this.text});
+  IconContent({@required this.icon, @required this.text});
 
   @override
   Widget build(BuildContext context) {
